@@ -33,7 +33,7 @@ model InvertedPendulum3D "3D animated inverted pendulum with swing-up and PID ba
   parameter Real x_ref = 0.0      "Desired cart position [m]";
   parameter Real setpoint_max = 0.1  "Max angle setpoint from position loop [rad] (~5.7 deg)";
   // Swing-up parameters
-  parameter Real k_swing = 5.0    "Swing-up gain [N/J]";
+  parameter Real k_swing = 8.0    "Swing-up gain [N/J]";
   parameter Real switch_angle = 0.3  "Angle threshold to switch to PID [rad] (~17 deg)";
   // Timing
   parameter Real Ts = 0.005 "Controller sample period [s] (200 Hz)";

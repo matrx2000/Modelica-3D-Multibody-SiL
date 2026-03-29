@@ -28,7 +28,7 @@ model SystemBlockDiagram "Block diagram view: PID controller + plant in feedback
     F_max = 50.0,
     integral_limit = 5.0,
     Ts = 0.005,
-    k_swing = 5.0,
+    k_swing = 8.0,
     switch_angle = 0.3,
     m_pend = 0.2,
     L_pend = 0.5)

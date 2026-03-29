@@ -117,7 +117,7 @@ void swing_up_controller_step(
          * omega ≈ 0). Give it a push to get things started.
          *--------------------------------------------------------------*/
         if (fabs(angular_rate) < 0.5 && fabs(cos(theta) + 1.0) < 0.3) {
-            output += force_max * 0.3;  /* brief kick in +x direction */
+            output += force_max * 0.4;
         }
 
         /* Gentle cart centering during swing-up to keep cart on track */
