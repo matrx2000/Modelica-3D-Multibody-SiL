@@ -30,6 +30,10 @@ compiles them together and runs a full closed-loop simulation.
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H58nGgHDc4A?si=_4BMtN7xw4W2pCAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## Why Modelica? (Acausal vs. Causal Modeling)
 
 If you come from an embedded / controls background, you are probably used to
