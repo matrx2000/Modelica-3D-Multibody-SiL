@@ -29,6 +29,7 @@ The C code is the controller firmware. Modelica is the physics. OpenModelica
 compiles them together and runs a full closed-loop simulation.
 
 ---
+## Example Youtube Video - How to run the sim
 
 [![Inverted Pendulum Swing-Up — 3D MultiBody + C Controller in OpenModelica](https://img.youtube.com/vi/H58nGgHDc4A/0.jpg)](https://www.youtube.com/watch?v=H58nGgHDc4A)
 ---
