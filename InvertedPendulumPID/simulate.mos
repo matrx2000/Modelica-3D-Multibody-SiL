@@ -1,0 +1,19 @@
+// simulate.mos — Run InvertedPendulumSystem from the command line
+//
+// Usage:
+//   cd "path/to/New folder"
+//   omc InvertedPendulumPID/simulate.mos
+//
+// Produces a CSV file with all simulation variables.
+
+loadModel(Modelica); getErrorString();
+loadFile("package.mo"); getErrorString();
+
+simulate(
+  InvertedPendulumPID.InvertedPendulumSystem,
+  startTime = 0,
+  stopTime  = 20,
+  tolerance = 1e-6,
+  numberOfIntervals = 10000,
+  outputFormat = "csv"
+); getErrorString();

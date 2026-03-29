@@ -1,0 +1,6 @@
+These are FreeCAD project files for the parts
+if you want to modify them install freeCAD form:
+
+https://www.freecad.org/
+
+And if you can support this cool project project with a donation!
